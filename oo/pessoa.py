@@ -19,5 +19,9 @@ if __name__ == '__main__':
     print(alexandre.idade)
     for filho in alexandre.filhos:
         print(filho.nome)
+    alexandre.sobrenome = 'Paes'
+    del alexandre.filhos
+    print(alexandre.__init__)
+    print(alex.__init__)
 
 
